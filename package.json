@@ -1,0 +1,82 @@
+{
+  "name": "element-ui",
+  "version": "1.0.0-rc.4",
+  "description": "A Component Library for Vue.js.",
+  "main": "lib/element-ui.common.js",
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
+  "scripts": {
+    "build:file": "node build/bin/iconInit.js & node build/bin/build-entry.js",
+    "dev": "npm run bootstrap && npm run build:file && cooking watch -c build/cooking.demo.js -p",
+    "dist": "npm run lint && npm run build:file && del -f lib && cooking build -c build/cooking.conf.js,build/cooking.common.js,build/cooking.component.js -p && npm run build:utils && npm run build:theme",
+    "dist:all": "node build/bin/build-all.js && npm run build:theme",
+    "build:theme": "gulp build --gulpfile packages/theme-default/gulpfile.js && cp-cli packages/theme-default/lib lib/theme-default",
+    "deploy": "npm run build:file && cooking build -c build/cooking.demo.js -p && echo element.eleme.io>>examples/element-ui/CNAME && gh-pages -d examples/element-ui --remote eleme && del examples/element-ui",
+    "bootstrap": "npm i && lerna bootstrap",
+    "pub": "sh build/release.sh",
+    "pub:all": "npm run dist:all && lerna publish",
+    "build:utils": "babel src/utils --out-dir lib/utils",
+    "lint": "eslint src/** packages/** build/** --ext .js,.vue --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elemefe/element.git"
+  },
+  "homepage": "http://element.eleme.io",
+  "keywords": [
+    "eleme",
+    "vue",
+    "components"
+  ],
+  "bugs": {
+    "url": "https://github.com/elemefe/element/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-syntax-jsx": "^6.8.0",
+    "babel-plugin-transform-vue-jsx": "^3.1.0",
+    "babel-preset-es2015": "^6.14.0",
+    "cheerio": "^0.18.0",
+    "cooking": "^1.1.0",
+    "cooking-lint": "^0.1.3",
+    "cooking-vue2": "^0.1.4",
+    "cp-cli": "^1.0.2",
+    "css-loader": "^0.24.0",
+    "del-cli": "^0.2.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "file-save": "^0.2.0",
+    "gh-pages": "^0.11.0",
+    "gulp": "^3.9.1",
+    "highlight.js": "^9.3.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "json-templater": "^1.0.4",
+    "lerna": "2.0.0-beta.18",
+    "markdown-it": "^6.1.1",
+    "markdown-it-container": "^2.0.0",
+    "object-assign": "^4.1.0",
+    "postcss": "^5.1.2",
+    "postcss-loader": "^0.11.1",
+    "postcss-salad": "^1.0.5",
+    "style-loader": "^0.13.1",
+    "theaterjs": "^3.0.0",
+    "uppercamelcase": "^1.1.0",
+    "url-loader": "^0.5.7",
+    "vue": "^2.0.0-rc.6",
+    "vue-loader": "^9.4.2",
+    "vue-markdown-loader": "^0.5.1",
+    "vue-popup": "^0.2.5",
+    "vue-router": "^2.0.0-beta.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1",
+    "wind-dom": "0.0.3"
+  }
+}

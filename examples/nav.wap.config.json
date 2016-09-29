@@ -1,0 +1,160 @@
+[{
+    "name": "安装指南",
+    "children": [{
+        "path": "/quickstart",
+        "name": "快速上手"
+    }, {
+        "path": "/development",
+        "name": "开发指南"
+    }]
+}, {
+    "name": "更新日志",
+    "path": "/changelog"
+}, {
+    "name": "基础组件",
+    "groups": [{
+        "groupName": "JS Components",
+        "list": [{
+            "path": "/toast",
+            "name": "Toast",
+            "title": "Toast",
+            "description": ""
+        }, {
+            "path": "/indicator",
+            "name": "Indicator",
+            "title": "Indicator",
+            "description": ""
+        }, {
+            "path": "/loadmore",
+            "name": "Loadmore",
+            "title": "Loadmore",
+            "description": ""
+        }, {
+            "path": "/infinite-scroll",
+            "name": "Infinite scroll",
+            "title": "Infinite scroll",
+            "description": ""
+        }, {
+            "path": "/message-box",
+            "name": "Message box",
+            "title": "Message box",
+            "description": ""
+        }, {
+            "path": "/action-sheet",
+            "name": "Action sheet",
+            "title": "Action sheet",
+            "description": ""
+        }, {
+            "path": "/popup",
+            "name": "Popup",
+            "title": "Popup",
+            "description": ""
+        }, {
+            "path": "/swipe",
+            "name": "Swipe",
+            "title": "Swipe",
+            "description": ""
+        }, {
+            "path": "/lazyload",
+            "name": "Lazy load",
+            "title": "Lazy load",
+            "description": ""
+        }, {
+            "path": "/range",
+            "name": "Range",
+            "title": "Range",
+            "description": ""
+        }, {
+            "path": "/progress",
+            "name": "Progress",
+            "title": "Progress",
+            "description": ""
+        }, {
+            "path": "/picker",
+            "name": "Picker",
+            "title": "Picker",
+            "description": ""
+        }, {
+            "path": "/datetime-picker",
+            "name": "Datetime Picker",
+            "title": "Datetime Picker",
+            "description": ""
+        }, {
+            "path": "/index-list",
+            "name": "Index List",
+            "title": "Index List",
+            "description": ""
+        }]
+    }, {
+        "groupName": "CSS Components",
+        "list": [{
+            "path": "/header",
+            "name": "Header",
+            "title": "Header",
+            "description": ""
+        }, {
+            "path": "/tabbar",
+            "name": "Tabbar",
+            "title": "Tabbar",
+            "description": ""
+        }, {
+            "path": "/navbar",
+            "name": "Navbar",
+            "title": "Navbar",
+            "description": ""
+        }, {
+            "path": "/button",
+            "name": "Button",
+            "title": "Button",
+            "description": ""
+        }, {
+            "path": "/cell",
+            "name": "Cell",
+            "title": "Cell",
+            "description": ""
+        }, {
+            "path": "/spinner",
+            "name": "Spinner",
+            "title": "Spinner",
+            "description": ""
+        }, {
+            "path": "/tab-container",
+            "name": "TabContainer",
+            "title": "TabContainer",
+            "description": ""
+        }, {
+            "path": "/search",
+            "name": "Search",
+            "title": "Search",
+            "description": ""
+        }]
+    }, {
+        "groupName": "Form Components",
+        "list": [{
+            "path": "/switch",
+            "name": "Switch",
+            "title": "Switch",
+            "description": ""
+        }, {
+            "path": "/checklist",
+            "name": "Checklist",
+            "title": "Checklist",
+            "description": ""
+        }, {
+            "path": "/radio",
+            "name": "Radio",
+            "title": "Radio",
+            "description": ""
+        }, {
+            "path": "/field",
+            "name": "Field",
+            "title": "Field",
+            "description": ""
+        }, {
+            "path": "/badge",
+            "name": "Badge",
+            "title": "Badge",
+            "description": ""
+        }]
+    }]
+}]

@@ -13,7 +13,7 @@ function convert(str) {
 
 cooking.set({
   entry: './examples/entry.js',
-  dist: './examples/element-ui/',
+  dist: './examples/xdc-ui/',
   template: './examples/index.tpl',
   publicPath: '/',
   hash: true,

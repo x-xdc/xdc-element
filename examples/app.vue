@@ -79,11 +79,16 @@
       width: 100%;
     }
   }
+  .header-display-none{
+    display: none;
+  }
 </style>
 
 <template>
   <div id="app">
-    <main-header></main-header>
+    <div v-bind:class="{ 'header-display-none': !isDisplayNone}"><main-header></main-header></div>
+    <div v-bind:class="{ 'header-display-none': isDisplayNone}"><wap-header ></wap-header></div>
+
     <div class="main-cnt">
       <router-view></router-view>
     </div>
@@ -94,6 +99,22 @@
 <script>
   export default {
     name: 'app',
+    data() {
+      return {
+        isDisplayNone: true
+      };
+    },
+    watch: {
+      '$route.path'(val) {
+        console.log(val);
+        let reg = /\/wap/;
+        if (reg.test(val)) {
+          this.isDisplayNone = false;
+        } else {
+          this.isDisplayNone = true;
+        }
+      }
+    },
     created() {
       window.addEventListener('hashchange', () => {
         document.body.scrollTop = 0;

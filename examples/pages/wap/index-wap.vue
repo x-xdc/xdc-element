@@ -163,7 +163,7 @@
       <img class="banner-stars" src="~examples/assets/images/stars.png" alt="Element">
       <div class="container">
         <div class="banner-desc">
-          <h2>Pc快速成型工具</h2>
+          <h2>Wap快速成型工具</h2>
           <div id="line2" class="actor"></div>
           <p>Xdc，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的组件库，提供了配套设计资源，帮助你的网站快速成型。</p>
         </div>
@@ -179,7 +179,7 @@
             <p>了解设计指南，帮助产品设计人员搭建逻辑清晰、结构合理且高效易用的产品。</p>
             <router-link
               active-class="active"
-              to="/guide/design"
+              to="/wapguide/design"
               exact>查看详情
             </router-link>
           </div>
@@ -191,7 +191,7 @@
             <p>使用组件 Demo 快速体验交互细节；使用前端框架封装的代码帮助工程师快速开发。</p>
             <router-link
               active-class="active"
-              to="/component/layout"
+              to="/wapcomponent/layout"
               exact>查看详情
             </router-link>
           </div>
@@ -203,7 +203,7 @@
             <p>下载相关资源，用其快速搭建页面原型或高保真视觉稿，提升产品设计效率。</p>
             <router-link
               active-class="active"
-              to="/resource"
+              to="/wapresource"
               exact>查看详情
             </router-link>
           </div>

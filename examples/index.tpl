@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1473762766_7074292.css">
-    <title>Element</title>
+    <title>xdc|鑫体验设计中心</title>
   </head>
   <body>
     <div id="app"></div><% if (process.env.NODE_ENV === 'production') { %>
@@ -16,7 +16,12 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-84335471-1', 'auto');
+    ga('create', 'UA-84818075-1', 'auto');
     ga('send', 'pageview');
+
+    <script>
+
+
+</script>
   </script><% } %>
 </html>

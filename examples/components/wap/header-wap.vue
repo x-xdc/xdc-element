@@ -22,6 +22,7 @@
       font-size:26px;
       font-weight: bold;
     }
+
     h1 {
       margin: 0;
       float: left;
@@ -149,27 +150,27 @@
     }">
       <div class="container">
         <h1><router-link to="/">XDC <strong class="logo-word"> 鑫体验设计中心</strong></router-link></h1>
-        <h2><router-link to="/"><span class="type-active">Pc</span></router-link></h2>
+        <h2><router-link to="/"><span>Pc</span></router-link></h2>
         <h2><router-link active-class="type-active"
-        to="/wap"><span>Wap</span></router-link></h2>
+        to="/wap"><span class="type-active">Wap</span></router-link></h2>
 
         <ul class="nav">
           <li class="nav-item">
             <router-link
               active-class="active"
-              to="/guide">指南
+              to="/wapguide">指南
             </router-link>
           </li>
           <li class="nav-item">
             <router-link
               active-class="active"
-              to="/component">组件
+              to="/wapcomponent">组件
             </router-link>
           </li>
           <li class="nav-item">
             <router-link
               active-class="active"
-              to="/resource"
+              to="/wapresource"
               exact>资源
             </router-link>
           </li>

@@ -2,9 +2,9 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-main">
-        <p class="footer-main-title">Element 1.0 Hydrogen</p>
-        <a href="https://github.com/ElemeFE/element/issues" class="footer-main-link" target="_blank">反馈建议</a>
-        <a href="https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.md" class="footer-main-link" target="_blank">贡献指南</a>
+        <p class="footer-main-title">xdc 鑫体验设计中心</p>
+        <a href="https://github.com/x-xdc/xdc-element/issues" class="footer-main-link" target="_blank">反馈建议</a>
+        <a href="https://github.com/x-xdc/xdc-element/blob/master/.github/CONTRIBUTING.md" class="footer-main-link" target="_blank">贡献指南</a>
       </div>
       <div class="footer-social">
         <el-popover
@@ -13,11 +13,10 @@
           width="120"
           class="footer-popover"
           trigger="hover">
-          <div class="footer-popover-title">饿了么 UED</div>
-          <img src="../assets/images/qrcode.png" alt="">
+          <div class="footer-popover-title">XDC UED</div>
         </el-popover>
         <i class="doc-icon-weixin elementdoc" v-popover:weixin></i>
-        <a href="//github.com/elemefe" target="_blank">
+        <a href="//github.com/x-xdc" target="_blank">
           <i class="doc-icon-github elementdoc"></i>
         </a>
       </div>
@@ -33,7 +32,7 @@
     width: 100%;
     z-index: 1000;
     margin-top: -120px;
-  
+
     * {
       word-spacing: 0;
     }
@@ -41,18 +40,18 @@
     .container {
       height: 100%;
     }
-    
+
     .footer-main {
       font-size: 0;
       padding-top: 40px;
       display: inline-block;
-      
+
       .footer-main-title {
         line-height: 1;
         font-size: 22px;
         margin: 0;
       }
-      
+
       .footer-main-link {
         display: inline-block;
         margin: 12px 18px 0 0;
@@ -66,11 +65,11 @@
         }
       }
     }
-  
+
     .footer-social {
       float: right;
       line-height: 120px;
-    
+
       .footer-popover {
         .el-popover {
           padding: 0;
@@ -87,13 +86,13 @@
           color: #99a9bf;
           background-color: #f8f9fe;
         }
-        
+
         img {
           size: 100px;
           margin: 10px;
         }
       }
-      
+
       .elementdoc {
         transition: .3s;
         display: inline-block;
@@ -108,7 +107,7 @@
            transform: scale(1.2);
         }
       }
-  
+
       .doc-icon-weixin {
         margin-right: 36px;
         &:hover {

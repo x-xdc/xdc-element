@@ -6,6 +6,6 @@ npm-debug.log.*
 lerna-debug.log.*
 lib
 .idea
-examples/element-ui
-fe.element/element-ui
+examples/xdc-ui
+fe.element/xdc-ui
 .npmrc

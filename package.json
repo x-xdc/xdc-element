@@ -14,7 +14,7 @@
     "dist": "npm run lint && npm run build:file && del -f lib && cooking build -c build/cooking.conf.js,build/cooking.common.js,build/cooking.component.js -p && npm run build:utils && npm run build:theme",
     "dist:all": "node build/bin/build-all.js && npm run build:theme",
     "build:theme": "gulp build --gulpfile packages/theme-default/gulpfile.js && cp-cli packages/theme-default/lib lib/theme-default",
-    "deploy": "npm run build:file && cooking build -c build/cooking.demo.js -p && echo xdc.party >>examples/xdc-ui/>CNAME && gh-pages -d examples/xdc-ui --remote xdc-element && del examples/xdc-ui",
+    "deploy": "npm run build:file && cooking build -c build/cooking.demo.js -p && echo xdc.party >>examples/xdc-ui/CNAME && gh-pages -d examples/xdc-ui",
     "bootstrap": "npm i && lerna bootstrap",
     "pub": "sh build/release.sh",
     "pub:all": "npm run dist:all && lerna publish",

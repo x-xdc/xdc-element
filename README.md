@@ -9,12 +9,12 @@
 > Desktop UI elements for Vue.js 2.0.
 
 ## Links
-- [Home Page](http://element.eleme.io/)
-- [Docs](http://element.eleme.io/#/component)
+- [Home Page](http://xdc.party/)
+- [Docs](http://xdc.party/#/component)
 
 ## Install
 ```shell
-npm install element-ui@next -S
+npm install Xdc-ui@next -S
 ```
 
 ## Quick Start
@@ -22,7 +22,7 @@ use [babel-plugin-component](https://github.com/QingWei-Li/babel-plugin-componen
 
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui'
+import Element from 'xdc-ui'
 
 Vue.use(Element)
 
@@ -41,16 +41,16 @@ Vue.component(Button.name, Button)
 
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+import Element from 'xdc-ui'
+import 'xdc-ui/lib/theme-default/index.css'
 
 Vue.use(Element)
 
 // or
-import Select from 'element-ui/lib/select'
-import 'element-ui/lib/theme-default/select.css'
-import Button from 'element-ui/lib/button'
-import 'element-ui/lib/theme-default/button.css'
+import Select from 'xdc-ui/lib/select'
+import 'xdc-ui/lib/theme-default/select.css'
+import Button from 'xdc-ui/lib/button'
+import 'xdc-ui/lib/theme-default/button.css'
 
 Vue.component(Select.name, Select)
 Vue.component(Button.name, Button)
@@ -62,7 +62,7 @@ Vue.component(Button.name, Button)
 {
   "plugins": ["xxx", ["component", [
     {
-      "libraryName": "element-ui",
+      "libraryName": "xdc-ui",
       "styleLibraryName": "theme-default"
     }
   ]]]
@@ -83,23 +83,5 @@ $ npm run dev
 $ npm run dist
 ```
 
-## Other links
-- Starter Kit
- - [element-starter](https://github.com/ElementUI/element-starter)
- - [element-cooking-starter](https://github.com/ElementUI/element-cooking-starter)
-- [Design resources](https://github.com/ElementUI/Resources)
-- Boilerplate for bug reports
- - [CodePen](https://codepen.io/anon/pen/ozYpNA)
- - [JSFiddle](https://jsfiddle.net/gmve9d3p/)
-- [Mint UI](https://github.com/ElemeFE/mint-ui) - Mobile UI elements for Vue.js
-
-## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/ElemeFE/element/releases).
-
-## Contribution
-Please make sure to read the [Contributing Guide](https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.md) before making a pull request.
-
 ## LICENSE
 MIT
-
-

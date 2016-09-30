@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-main">
-        <p class="footer-main-title">xdc 鑫体验设计中心</p>
+        <p class="footer-main-title">XDC 鑫体验设计中心</p>
         <a href="https://github.com/x-xdc/xdc-element/issues" class="footer-main-link" target="_blank">反馈建议</a>
         <a href="https://github.com/x-xdc/xdc-element/blob/master/.github/CONTRIBUTING.md" class="footer-main-link" target="_blank">贡献指南</a>
       </div>

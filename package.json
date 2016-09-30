@@ -23,11 +23,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:elemefe/element.git"
+    "url": "git@github.com:x-xdc/xdc-element.git"
   },
   "homepage": "http://xdc.party",
   "keywords": [
-    "eleme",
+    "xdc",
     "vue",
     "components"
   ],

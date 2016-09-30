@@ -12,7 +12,7 @@ cooking.set({
   externals: { vue: 'vue' }
 });
 
-cooking.add('output.filename', 'element-ui.common.js');
+cooking.add('output.filename', 'xdc-ui.common.js');
 cooking.add('loader.js.exclude', config.jsexclude);
 
 module.exports = cooking.resolve();
